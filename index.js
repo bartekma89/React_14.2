@@ -2,7 +2,7 @@ var index = 0;
 var data_movies = movies[index];
 
 var movie = function(data) {
-    return React.createElement('div', { className: 'media border' },
+    return React.createElement('div', { className: 'media border', key:data.Id },
         React.createElement('div', { className: 'media-left' },
             React.createElement('img', {
                 className: 'media-object',
